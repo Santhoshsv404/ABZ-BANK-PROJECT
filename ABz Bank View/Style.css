@@ -1,0 +1,541 @@
+
+
+
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+header{
+
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgb(219, 236, 236);
+    color: rgb(37, 99, 181);    
+}
+
+
+.Login-Container {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.Login-Container img{
+
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+  
+   50%{
+     transform: translatey(1rem);
+   }
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.form input{
+
+    width: 60%;
+    color: aliceblue;
+    
+}
+
+.submit{
+    margin-top: 20px;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    background-color: rgb(66, 172, 229);
+}
+
+
+@media(max-width:860px){
+
+    .Login-Container{
+
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.home{
+
+    display: flex;
+
+
+}
+
+.home img{
+
+margin-top: 5%;
+margin-right: 7%;
+
+
+}
+
+
+
+
+
+.home-container{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 0% 5%;
+}
+
+.Home-links{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    gap: 10px;
+    margin-bottom: 5%;
+}
+.home-container h2{
+
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.home-container a{
+
+    text-align: center;
+    background-color: rgb(66, 172, 229);
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    width: 40%;
+    text-decoration: none;
+    color: aliceblue;
+
+
+} 
+
+
+.home-container a:hover{
+
+    background-color: rgb(14, 133, 197);
+    transform: translateY(2px);
+}
+
+.home-container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.home-container input{
+
+   padding: 1rem 3rem;
+   border: none;
+   border-radius: 5px;
+   font-weight: 700;
+   background-color: rgb(63, 162, 211);
+   color: aliceblue;
+
+    
+
+}
+.home-container input:hover{
+
+
+    transform: translateY(2px);
+
+}
+
+
+
+
+
+
+.loan-types{
+
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10%;
+    margin-top: 2%;
+    margin-left: 10%;
+    row-gap: 2rem;
+    
+
+}
+
+.loan-types div{
+    width: 25rem;
+    background-color: rgb(66, 172, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+
+.loan-types div:hover{
+
+    transform: translateY(2px);
+    background-color: rgb(33, 150, 213);
+    
+}
+
+
+.loan-types a{
+
+
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+
+}
+    
+
+.loan-types img{
+
+    width: 4vw;
+
+}
+
+
+
+.loan-container{
+
+   
+   margin-top: 2%;
+   
+
+}
+
+.loan-main-container h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+.changepwdcontainer{
+
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    
+    
+
+}
+
+
+
+
+
+.changepwdform{
+
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start; 
+    row-gap: 3%;
+
+}
+
+.changepwdinput{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    
+}
+
+.changepwdinput input{
+
+   width: 100%;
+   color: aliceblue;
+
+}
+
+.changepwdimg{
+
+    width: 50%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitchangepwd{
+
+
+
+    background-color: rgb(66, 172, 229); 
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Tranfermoney-contaner{
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+}
+.Tranfermoney-contaner h3{
+
+    font-size: 2rem;
+    margin-bottom: 3%;
+
+}
+
+.Tranfermoney-form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 35%;
+
+
+}
+
+.Tranfermoney-form .tmsubmit
+{
+
+    
+    padding: 4% 25%;
+    background-color:rgb(66, 172, 229);  
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+
+.Tranfermoney-form input{
+
+
+    height: 25px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.welcome-hero-container{
+
+
+    display: flex;
+  
+    justify-content: space-around;
+}
+
+
+
+.reg-login-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reg-login-container p{
+
+    padding: 3% 0;
+    font-size: 1.2rem;
+    
+}
+
+.reg-login-container a{
+
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(30, 126, 177); 
+    font-weight: 600;
+    
+}
+
+.reg-login-container a:hover{
+
+    transform: translateY(2px);
+}
+
+form input{
+    
+    
+    margin-bottom: 5%;
+
+}
+
+
+
+
+.welcome-hero-container img{
+    padding-bottom: 4%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+  
+   50%{
+     transform: translatey(1rem);
+   }
+
+}
+
+
+
+
+
+
+
+.reg-main-conatiner h1{
+
+    font-size: 3rem;
+    text-align: center;
+    padding: 2% 0 1% 0;
+    background-color: rgb(66, 172, 229);
+}
+
+
+.reg-hero-conatiner{
+
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.reg-hero-conatiner h2{
+ 
+    margin-top: 10%;
+    margin-bottom: 3%;
+
+}
+
+
+.reg-hero-conatiner img{
+
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+  
+   50%{
+     transform: translatey(1rem);
+   }
+
+}
+
+.reg-submit{
+
+    padding: 2% 20%;
+    background-color:rgb(66, 172, 229); 
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.reg-submit:hover{
+
+    transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+
+
+@media(width <= 400px) {
+
+    .changepwdcontainer{
+
+      flex-direction: column-reverse;
+        
+    
+    }
+
+    .changepwdimg{
+
+        width: 100%;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+
+    
+}
